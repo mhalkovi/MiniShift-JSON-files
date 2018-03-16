@@ -1,0 +1,194 @@
+{
+    "apiVersion": "v1",
+    "kind": "ImageStream",
+    "metadata": {
+        "annotations": {
+            "openshift.io/display-name": "Red Hat JBoss Web Server 3.0 Tomcat 8",
+            "openshift.io/image.dockerRepositoryCheck": "2017-12-07T23:12:27Z"
+        },
+        "creationTimestamp": "2017-12-07T23:12:24Z",
+        "generation": 2,
+        "name": "jboss-webserver30-tomcat8-openshift",
+        "namespace": "openshift",
+        "resourceVersion": "1131",
+        "selfLink": "/oapi/v1/namespaces/openshift/imagestreams/jboss-webserver30-tomcat8-openshift",
+        "uid": "16143deb-dba4-11e7-97b7-000d3a34b31f"
+    },
+    "spec": {
+        "dockerImageRepository": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift",
+        "lookupPolicy": {
+            "local": false
+        },
+        "tags": [
+            {
+                "annotations": {
+                    "description": "JBoss Web Server 3.0 Tomcat 8 S2I images.",
+                    "iconClass": "icon-jboss",
+                    "openshift.io/display-name": "Red Hat JBoss Web Server 3.0 Tomcat 8",
+                    "sampleContextDir": "tomcat-websocket-chat",
+                    "sampleRepo": "https://github.com/jboss-openshift/openshift-quickstarts.git",
+                    "supports": "tomcat8:3.0,tomcat:8,java:8,xpaas:1.1",
+                    "tags": "builder,tomcat,tomcat8,java,jboss,xpaas",
+                    "version": "1.1"
+                },
+                "generation": 1,
+                "importPolicy": {},
+                "name": "1.1",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": {
+                    "description": "JBoss Web Server 3.0 Tomcat 8 S2I images.",
+                    "iconClass": "icon-jboss",
+                    "openshift.io/display-name": "Red Hat JBoss Web Server 3.0 Tomcat 8",
+                    "sampleContextDir": "tomcat-websocket-chat",
+                    "sampleRepo": "https://github.com/jboss-openshift/openshift-quickstarts.git",
+                    "supports": "tomcat8:3.0,tomcat:8,java:8,xpaas:1.2",
+                    "tags": "builder,tomcat,tomcat8,java,jboss,xpaas",
+                    "version": "1.2"
+                },
+                "generation": 1,
+                "importPolicy": {},
+                "name": "1.2",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": {
+                    "description": "JBoss Web Server 3.0 Tomcat 8 S2I images.",
+                    "iconClass": "icon-jboss",
+                    "sampleContextDir": "tomcat-websocket-chat",
+                    "sampleRepo": "https://github.com/jboss-openshift/openshift-quickstarts.git",
+                    "supports": "tomcat8:3.0,tomcat:8,java:8,xpaas:1.3",
+                    "tags": "builder,tomcat,tomcat8,java,jboss,xpaas",
+                    "version": "1.3"
+                },
+                "from": {
+                    "kind": "DockerImage",
+                    "name": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:1.3"
+                },
+                "generation": 2,
+                "importPolicy": {},
+                "name": "1.3",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": null,
+                "from": {
+                    "kind": "DockerImage",
+                    "name": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:1.3-13"
+                },
+                "generation": 2,
+                "importPolicy": {},
+                "name": "1.3-13",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": null,
+                "from": {
+                    "kind": "DockerImage",
+                    "name": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:1.3-14"
+                },
+                "generation": 2,
+                "importPolicy": {},
+                "name": "1.3-14",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": null,
+                "from": {
+                    "kind": "DockerImage",
+                    "name": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:1.3-15"
+                },
+                "generation": 2,
+                "importPolicy": {},
+                "name": "1.3-15",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            },
+            {
+                "annotations": null,
+                "from": {
+                    "kind": "DockerImage",
+                    "name": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:latest"
+                },
+                "generation": 2,
+                "importPolicy": {},
+                "name": "latest",
+                "referencePolicy": {
+                    "type": "Source"
+                }
+            }
+        ]
+    },
+    "status": {
+        "dockerImageRepository": "docker-registry.default.svc:5000/openshift/jboss-webserver30-tomcat8-openshift",
+        "tags": [
+            {
+                "items": [
+                    {
+                        "created": "2017-12-07T23:12:27Z",
+                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift@sha256:e9388df6c16dd0bdfe09b11250598392e590c4a49e9720925644e3f22ed49b56",
+                        "generation": 2,
+                        "image": "sha256:e9388df6c16dd0bdfe09b11250598392e590c4a49e9720925644e3f22ed49b56"
+                    }
+                ],
+                "tag": "latest"
+            },
+            {
+                "items": [
+                    {
+                        "created": "2017-12-07T23:12:27Z",
+                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift@sha256:0089883f8e4387618946cd24378a447b8cf7e5dfaa146b94acab27fc5e170a14",
+                        "generation": 2,
+                        "image": "sha256:0089883f8e4387618946cd24378a447b8cf7e5dfaa146b94acab27fc5e170a14"
+                    }
+                ],
+                "tag": "1.3"
+            },
+            {
+                "items": [
+                    {
+                        "created": "2017-12-07T23:12:27Z",
+                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift@sha256:8595a2209003a8a7502ad045b63858eedf5b35ecb20fcfebc93a61dfc86c65d3",
+                        "generation": 2,
+                        "image": "sha256:8595a2209003a8a7502ad045b63858eedf5b35ecb20fcfebc93a61dfc86c65d3"
+                    }
+                ],
+                "tag": "1.3-15"
+            },
+            {
+                "items": [
+                    {
+                        "created": "2017-12-07T23:12:27Z",
+                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift@sha256:b86577a8fce4735cb9a9ef90b5f0f9169922733f1e98d51195169f8da538ae94",
+                        "generation": 2,
+                        "image": "sha256:b86577a8fce4735cb9a9ef90b5f0f9169922733f1e98d51195169f8da538ae94"
+                    }
+                ],
+                "tag": "1.3-14"
+            },
+            {
+                "items": [
+                    {
+                        "created": "2017-12-07T23:12:27Z",
+                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift@sha256:414f41b76107432ac8752c03af16af2b895aaa368c3c90b612eb30165982505f",
+                        "generation": 2,
+                        "image": "sha256:414f41b76107432ac8752c03af16af2b895aaa368c3c90b612eb30165982505f"
+                    }
+                ],
+                "tag": "1.3-13"
+            }
+        ]
+    }
+}
